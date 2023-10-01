@@ -1,0 +1,25 @@
+* Tensorflow Object Detection Walkthrough
+
+** Steps
+
+*** Step 1. Clone this repository:
+#+begin_src bash
+git clone https://github.com/amogh-dongre/TensorflowObjectDetection.git
+#+end_src
+*** Step 2. Create a new virtual environment
+#+begin_src
+python -m venv tfod
+#+end_src
+*** Step 3. Enter into a virtual environment
+#+begin_src bash
+source tfod/bin/activate  #Linux
+#+end_src
+#+begin_src powershell
+.\tfod\Scripts\activate #Windows
+#+end_src
+*** Step 4. Install dependencies and add virtual environment to the Python Kernel
+#+begin_src bash
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=tfodj
+#+end_src
