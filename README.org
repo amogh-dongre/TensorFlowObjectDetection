@@ -1,7 +1,6 @@
 * Tensorflow Object Detection Walkthrough
-
+- This project leverages OpenCV,Tensorflow Object Detection API and python to perform object detection as well as Person detection.
 ** Steps
-
 *** Step 1. Clone this repository:
 #+begin_src bash
 git clone https://github.com/amogh-dongre/TensorflowObjectDetection.git
@@ -23,3 +22,11 @@ python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=tfodj
 #+end_src
+*** Step 5:
+**** Image collection using ImageCollection.ipynb (Note: Ensure  you have the proper kernel set.)
+*** Step 6:
+**** Manually divide the images into train and test directories these will be important to first train and subsequently tet the model.
+*** Step 7:
+**** Train the model using the Training.ipynb notebook and just execute each block one after the other.
+*** Step 8:
+- And that's it Done!
